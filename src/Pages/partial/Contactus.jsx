@@ -1,23 +1,22 @@
-import React from "react";
 import { Button, Input, Textarea, Typography } from "@material-tailwind/react";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 export function Contactus() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <section className="px-8 py-8 lg:py-16">
+    <section  data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" className="px-8 py-8 lg:py-16">
       <div className="container mx-auto text-center">
-        <Typography
-          variant="h5"
-          color="blue-gray"
-          className="mb-4 !text-base lg:!text-2xl"
-        >
-          Customer Care
-        </Typography>
         <Typography
           variant="h1"
           color="blue-gray"
           className="mb-4 !text-3xl lg:!text-5xl"
         >
-          We&apos;re Here to Help
+          Contact Us
         </Typography>
         <Typography className="mb-10 font-normal !text-lg lg:mb-20 mx-auto max-w-3xl !text-gray-500">
           Whether it&apos;s a question about our services, a request for

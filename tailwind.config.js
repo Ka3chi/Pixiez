@@ -10,7 +10,7 @@ module.exports = withMT({
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: ['tailwindcss-animated'],
 });
 
 

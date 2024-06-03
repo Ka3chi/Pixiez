@@ -4,7 +4,6 @@ import Layout from "../Pages/layout/Landingpagelayout"
 
 const AllRoutes = () => {
     return (
-        <div>
         <Routes>
             <Route path="/" element={<Layout/>}>
                 
@@ -13,8 +12,6 @@ const AllRoutes = () => {
                 <Route path="/services" element={<Services/>}></Route> */}
             </Route>
         </Routes>
-        </div>
-
     )
 }
 export default AllRoutes

@@ -4,16 +4,13 @@ import { Typography } from "@material-tailwind/react";
  
 const LINKS = [
   {
-    title: "Product",
-    items: ["Overview", "Features", "Solutions", "Tutorials"],
+    title: "About Us",
   },
   {
-    title: "Company",
-    items: ["About us", "Careers", "Press", "News"],
+    title: "Contact Us",
   },
   {
     title: "Resource",
-    items: ["Blog", "Newsletter", "Events", "Help center"],
   },
 ];
  
@@ -28,7 +25,7 @@ export function Footer() {
             Pixiez
           </Typography>
           <div className="grid grid-cols-3 justify-between gap-4">
-            {LINKS.map(({ title, items }) => (
+            {LINKS.map(({ title }) => (
               <ul key={title}>
                 <Typography
                   variant="small"
@@ -37,18 +34,6 @@ export function Footer() {
                 >
                   {title}
                 </Typography>
-                {items.map((link) => (
-                  <li key={link}>
-                    <Typography
-                      as="a"
-                      href="#"
-                      color="gray"
-                      className="py-1.5 font-normal transition-colors hover:text-blue-gray-900"
-                    >
-                      {link}
-                    </Typography>
-                  </li>
-                ))}
               </ul>
             ))}
           </div>
