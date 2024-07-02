@@ -1,5 +1,6 @@
 import { FaFacebookSquare } from "react-icons/fa";
-
+import React from "react";
+import { Link } from "react-router-dom";
 import { Typography } from "@material-tailwind/react";
  
 const LINKS = [
@@ -20,25 +21,30 @@ export function Footer() {
   return (
     <footer className="relative w-full">
       <div className="mx-auto w-full max-w-7xl px-8">
-        <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
-          <Typography variant="h5" className="mb-6">
+        <div className="grid grid-row justify-center items-center gap-4 md:grid-cols-2">
+          <Typography variant="h5">
             Pixiez
           </Typography>
-          <div className="grid grid-cols-3 justify-between gap-4">
-            {LINKS.map(({ title }) => (
+          <div className="grid grid-cols-3 justify-center items-center gap-4 h-24">
+          <Link to="">Home</Link>
+          <Link to="">About Us</Link>
+          <Link to="">Contact Us</Link>
+            {/* {LINKS.map(({ title }) => (
               <ul key={title}>
                 <Typography
                   variant="small"
                   color="blue-gray"
                   className="mb-3 font-medium opacity-40"
                 >
+                 
                   {title}
+              
                 </Typography>
               </ul>
-            ))}
+            ))} */}
           </div>
         </div>
-        <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
+        <div className=" flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
           <Typography
             variant="small"
             className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"

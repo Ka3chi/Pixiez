@@ -8,7 +8,7 @@ import {
    
   export function About() {
     return (
-      <div className="flex flex-row space-x-9 justify-center items-center">
+      <div className="flex flex-row space-x-9 justify-center items-center mb-[300px]">
         <Card className="mt-6 w-96">
         <CardBody>
           <svg

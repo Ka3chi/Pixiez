@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.fancy-border-radius1 {
+    border-radius: 43% 57% 51% 49% / 74% 51% 49% 26%;
+  }
+
+.fancy-border-radius2 {
+border-radius: 43% 57% 48% 52% / 57% 14% 86% 43% ;
+}
