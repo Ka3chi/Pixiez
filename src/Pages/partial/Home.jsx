@@ -14,14 +14,14 @@ export const Home = () => {
     AOS.init();
   }, []);
   return (
-    <div className=" bg-gray-200 flex flex-col space-y-32">
+    <div className=" bg-gray-200 flex flex-col justify-center space-y-32 overflow-y-hidden">
       {/* HomePage */}
       <div className=" bg-no-repeat bg-center w-full flex justify-center items-center mt-16"
       >
         <div className="flex flex-row p-2">
-          <div className="fancy-border-radius1 p-6 bg-skyblue w-[369px] h-[369px] flex justify-center items-center" data-aos="fade-right">
+          <div className="fancy-border-radius1 p-6 border-3 border-blue w-[369px] h-[369px] flex justify-center items-center" data-aos="fade-right">
           {/* className="w-auto h-[455px]" */}
-          <div className="fancy-border-radius2 p-6 bg-lightsky w-[369px] h-[369px] flex justify-center items-center">
+          <div className="fancy-border-radius2 p-6 border-3 border-blue w-[369px] h-[369px] flex justify-center items-center">
 
           </div>
             {/* <img src={ homepage } alt="" className="w-auto h-[200px]" /> */}

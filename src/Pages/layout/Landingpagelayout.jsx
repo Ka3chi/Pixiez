@@ -6,9 +6,9 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <div className="p-0 m-0"> 
-        <Outlet />
-      </div>
+
+        <Outlet className="overflow-y-hidden"/>
+      
       <Footer />
     </>
   );

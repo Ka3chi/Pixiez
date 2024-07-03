@@ -72,7 +72,7 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white sticky top-0 drop-shadow-lg z-40">
+    <header className="bg-white sticky top-0 drop-shadow-md z-40">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-1 lg:px-8"
         aria-label="Global"
@@ -113,7 +113,7 @@ export function Header() {
               leave="transition ease-in duration-150"
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
-            >
+            >     
               <PopoverPanel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
                   {services.map((item) => (
@@ -181,7 +181,7 @@ export function Header() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-40" />
-        <DialogPanel className="absolute inset-y-0 right-0 top-0 z-50 bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <DialogPanel className="fixed inset-y-0 right-0 top-0 z-50 w-full bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Pixiez</span>
