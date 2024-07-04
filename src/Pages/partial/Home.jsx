@@ -16,24 +16,17 @@ export const Home = () => {
   return (
     <div className=" bg-gray-200 flex flex-col justify-center space-y-32 overflow-y-hidden">
       {/* HomePage */}
-      <div className=" bg-no-repeat bg-center w-full flex justify-center items-center mt-16"
+      <div className=" frontbackground w-full flex justify-start p-16 h-[700px]"
       >
-        <div className="flex flex-row p-2">
-          <div className="fancy-border-radius1 p-6 border-3 border-blue w-[369px] h-[369px] flex justify-center items-center" data-aos="fade-right">
-          {/* className="w-auto h-[455px]" */}
-          <div className="fancy-border-radius2 p-6 border-3 border-blue w-[369px] h-[369px] flex justify-center items-center">
-
-          </div>
-            {/* <img src={ homepage } alt="" className="w-auto h-[200px]" /> */}
-          </div>
+        <div className="flex justify-center flex-row p-2">
           <div
             data-aos="fade-left"
-            className="p-2 flex flex-col justify-center items-center"
+            className="p-2 flex flex-col justify-center "
           >
-            <p className="font-bold text-[64px] flex justify-center flex-wrap">
-              Welcome to <span className=" text-light-blue-400">&nbsp;Pixiez</span>
+            <p className="font-bold text-[64px] flex justify-start flex-wrap">
+              Welcome to <span className=" text-white">&nbsp;Pixiez</span>
             </p>
-            <div className="flex justify-center items-center text-wrap text-center text-[24px] font-thin text-gray-600">
+            <div className="flex justify-start text-wrap text-[24px] font-thin text-gray-600">
               Unlock your potential with Pixiez! Create, inspire, and thrive.
               <br /> Let's transform your ideas into achievements with Pixiez.
             </div>
@@ -46,16 +39,16 @@ export const Home = () => {
         </div>
       </div>
       {/* Intro */}
-      <div className="flex justify-center items-center p-5">
+      <div className="flex justify-center items-center p-[20px]">
         <div
           data-aos="fade-left"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
-          className=" flex justify-center items-center"
+          className=" flex justify-center items-center sm:flex-col lg:flex-row"
         >
           <div className="flex flex-col p-5">
-            <div className="font-bold text-[40px]">Title</div>
-            <div className="text-wrap text-[24px] text-left">
+            <div className="font-bold text-[40px]">Who we are?</div>
+            <div className="text-wrap text-[24px] text-left w-[600px]">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
               quam placeat voluptate dicta odit quasi ad voluptatum fugiat?
               Inventore, deserunt. Aut quae enim corrupti tenetur non illo ut
@@ -65,8 +58,8 @@ export const Home = () => {
               See More
             </Button>
           </div>
-          <div className="p-2 w-auto flex justify-items-center items-center">
-            <img src={undrawfront} alt="img" />
+          <div className="p-2 flex justify-items-center items-center">
+            <img src={undrawfront} alt="img" className="rounded-xl" />
           </div>
         </div>
       </div>
@@ -77,11 +70,11 @@ export const Home = () => {
           data-aos-easing="ease-in-sine"
           className="flex justify-center items-center"
         >
-          <div className="p-2 mx-auto">
+          <div className="p-2 mx-auto w-[625px] h-[400px]">
             <img className="" src={undrawfront} alt="img1" />
           </div>
           <div className="flex flex-col p-5">
-            <div className="font-bold text-[30px]">Title</div>
+            <div className="font-bold text-[30px]">What We Do?</div>
             <div className="text-wrap text-[20px] text-left">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
               quam placeat voluptate dicta odit quasi ad voluptatum fugiat?
