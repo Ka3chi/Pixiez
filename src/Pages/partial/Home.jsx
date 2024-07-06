@@ -1,6 +1,7 @@
 import { Contactus } from "./Contactus";
 import { Button } from "@material-tailwind/react";
-import undrawfront from "../../Assets/undrawfront.png";
+import frontpage2 from "../../Assets/frontpage2.jpg";
+import frontpage from "../../Assets/frontpage.jpg"
 import teamwork from "../../Assets/teamwork.jpg";
 import React, { useEffect } from "react";
 import AOS from "aos";
@@ -49,17 +50,16 @@ export const Home = () => {
           <div className="flex flex-col p-5">
             <div className="font-bold text-[40px]">Who we are?</div>
             <div className="text-wrap text-[24px] text-left w-[600px]">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-              quam placeat voluptate dicta odit quasi ad voluptatum fugiat?
-              Inventore, deserunt. Aut quae enim corrupti tenetur non illo ut
-              hic ratione?
+              <p>
+              At Pixiez, we are the leading experts in business consultation, renowned for our exceptional services in business planning, market research, financial management, legal compliance, marketing strategies, and operational efficiency. As the most trusted name in the industry, we are dedicated to helping you achieve unparalleled success and growth for your business. Our team of top consultants brings a wealth of experience and innovative solutions to turn your vision into reality and set you on the path to long-term success.
+              </p>
             </div>
             <Button className="flex justify-center items-center p-2 border mt-2 rounded-[10px] text-[16px] hover:text-white h-[60px] w-[150px] ">
               See More
             </Button>
           </div>
           <div className="p-2 flex justify-items-center items-center">
-            <img src={undrawfront} alt="img" className="rounded-xl" />
+            <img src={frontpage2} alt="img" className="rounded-xl h-[400px] w-[500px] shadow-lg" />
           </div>
         </div>
       </div>
@@ -71,15 +71,14 @@ export const Home = () => {
           className="flex justify-center items-center"
         >
           <div className="p-2 mx-auto w-[625px] h-[400px]">
-            <img className="" src={undrawfront} alt="img1" />
+            <img src={frontpage} alt="img2" className="rounded-xl h-[400px] w-[500px] shadow-lg" />
           </div>
           <div className="flex flex-col p-5">
             <div className="font-bold text-[30px]">What We Do?</div>
-            <div className="text-wrap text-[20px] text-left">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-              quam placeat voluptate dicta odit quasi ad voluptatum fugiat?
-              Inventore, deserunt. Aut quae enim corrupti tenetur non illo ut
-              hic ratione?
+            <div className="text-wrap text-[24px] text-left w-[600px] p-2">
+              <p>
+              Pixiez offers expert business consultation to help you start and grow your business. Our experienced team provides personalized advice and strategic guidance to turn your business ideas into reality. Let us support you every step of the way!
+              </p>
             </div>
             <Button className="flex justify-center items-center p-2 border mt-2 rounded-[10px] text-[15px] hover:text-white h-[60px] w-[150px] ">
               See More
