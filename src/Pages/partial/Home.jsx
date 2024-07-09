@@ -68,8 +68,11 @@ export const Home = () => {
           Unite with us and shape the future.
         </div>
       </div>
-      <div className="p-2">
+      <div className="p-2 flex flex-col">
         {/* this is about */}
+        <div className="flex justify-center items-center pt-10">
+          <h1 className="font-bold text-[50px]">What We Do</h1>
+        </div>
         <About />
       </div>
     </div>
