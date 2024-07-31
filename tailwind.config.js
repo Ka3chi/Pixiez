@@ -14,11 +14,18 @@ module.exports = withMT({
         'blue' : "#0077b6",
         'skyblue' : "#00b4d8",
         'lightsky' : "#90e0ef",
+
+        'accent' : "#4f9fed",
+        'secondary' : "#79cff1",
+        'primary' : "#23e9c7",
+        'background' : "#fafffe",
+        'text' : "#031f1a",
         // 'gray' : "#caf0f8"
       },
       backgroundImage: {
         'teamwork' : 'url("src/Assets/teamwork.jpg")',
-        'frontpage' : 'url(src/Assets/frontpage.jpg)',
+        'homepage1' : 'url(src/Assets/homepage1.png)',
+
       }
     },
   },

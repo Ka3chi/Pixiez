@@ -1,5 +1,5 @@
 import { Route , Routes } from "react-router-dom";
-import { Home } from "../Pages/compiler";
+import { Home, Pagenotfound } from "../Pages/compiler";
 import Layout from "../Pages/layout/Landingpagelayout"
 
 const AllRoutes = () => {
@@ -11,6 +11,7 @@ const AllRoutes = () => {
                 {/* <Route path="/about" element={<About/>}></Route>
                 <Route path="/services" element={<Services/>}></Route> */}
             </Route>
+            <Route path="*" element={< Pagenotfound />} />
         </Routes>
     )
 }
