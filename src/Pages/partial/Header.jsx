@@ -62,21 +62,21 @@ export function Header() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <a href="#homepage" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="#homepage" className="text-base font-semibold leading-6 text-gray-900">
             Home
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
             Services
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
             About Us
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
             Contact Us
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
             Log in
           </a>
         </div>

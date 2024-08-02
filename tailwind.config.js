@@ -19,12 +19,13 @@ module.exports = withMT({
         'secondary' : "#79cff1",
         'primary' : "#23e9c7",
         'background' : "#fafffe",
+        'background2' : "FBF7F7",
         'text' : "#031f1a",
-        // 'gray' : "#caf0f8"
+        'text2' : "828282",
+        
       },
       backgroundImage: {
         'teamwork' : 'url("src/Assets/teamwork.jpg")',
-        'homepage1' : 'url(src/Assets/homepage1.png)',
 
       }
     },
