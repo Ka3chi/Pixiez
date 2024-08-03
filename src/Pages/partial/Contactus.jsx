@@ -2,7 +2,8 @@ import { Button, Input, Textarea, Typography } from "@material-tailwind/react";
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import { IoIosMail } from "react-icons/io";
+import { FaPhone } from "react-icons/fa6";
 
 export function Contactus() {
   useEffect(() => {
@@ -24,11 +25,18 @@ export function Contactus() {
           eager to hear from you.
         </Typography>
         <div className="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2 items-start">
-          <img
-            src="/image/map.svg"
-            alt="map"
-            className="w-full h-full lg:max-h-[510px]"
-          />
+          <div className="bg-blue-gray-600 w-full h-full lg:max-h-[510px] rounded-xl p-[90px]">
+            <div className="flex flex-col text-white">
+              <h1 className="font-semibold text-[30px]">Contact Information</h1>
+              <p className="text-[24px] font-thin">Fill up the form and our Team will get back to you within 24 hours.</p>
+              <div className="flex flex-row items-center">
+                <FaPhone className="h-5 w-5"/><p className="text-[18px] font-thin ml-5">+1(424) 000 ***</p>
+              </div>
+              <div className="flex flex-row items-center">
+                <IoIosMail className="h-10 w-10"/><p className="text-[18px] font-thin ml-5">hi**@gmail.com</p>
+              </div>
+            </div>
+          </div>
           <form
             action="#"
             className="flex flex-col gap-4 lg:max-w-sm"
