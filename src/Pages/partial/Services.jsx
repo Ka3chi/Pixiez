@@ -10,10 +10,14 @@ import {
   import { GrCompliance , GrSelect } from "react-icons/gr"; 
   import { AiFillProduct } from "react-icons/ai";
 
-  export function About() {
+  export function Services() {
     return (
-      <div className="grid grid-cols-3 p-[40px] justify-items-center mb-[300px]">
-        <Card className="mt-6 w-96">
+      <div className="grid grid-cols-3 p-[40px] justify-items-center mb-[50px]">
+        {/* //Business planning */}
+        <Card 
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="mt-6 w-96">
         <CardBody>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +61,11 @@ import {
           </a>
         </CardFooter>
         </Card>
-        <Card className="mt-6 w-96">
+        {/* //Market Research */}
+        <Card 
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        className="mt-6 w-96">
           <CardBody>
             <div className="mb-4 h-12 w-12 text-gray-900">
             <GiArchiveResearch className=" w-full h-[50px]"/>
@@ -91,7 +99,11 @@ import {
             </a>
           </CardFooter>
         </Card>
-        <Card className="mt-6 w-96">
+        {/* //Financial planning */}
+        <Card 
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        className="mt-6 w-96">
           <CardBody>
             <div className="mb-4 h-12 w-12 text-gray-900">
               <RiMoneyDollarCircleLine className=" w-full h-[50px]"/>
@@ -125,7 +137,11 @@ import {
             </a>
           </CardFooter>
         </Card>
-        <Card className="mt-6 w-96">
+        {/* //Legal and Compliance */}
+        <Card 
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="mt-6 w-96">
           <CardBody>
             <div className="mb-4 h-12 w-12 text-gray-900">
               <GrCompliance className=" w-full h-[50px]"/>
@@ -159,7 +175,11 @@ import {
             </a>
           </CardFooter>
         </Card>
-        <Card className="mt-6 w-96">
+        {/* //Marketing and Branding */}
+        <Card 
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        className="mt-6 w-96">
           <CardBody>
             <div className="mb-4 h-12 w-12 text-gray-900">
               <AiFillProduct className=" w-full h-[50px]"/>
@@ -193,7 +213,11 @@ import {
             </a>
           </CardFooter>
         </Card>
-        <Card className="mt-6 w-96">
+        {/* //Operational Efficiency */}
+        <Card 
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        className="mt-6 w-96">
           <CardBody>
             <div className="mb-4 h-12 w-12 text-gray-900">
               <GrSelect className=" w-full h-[50px]"/>

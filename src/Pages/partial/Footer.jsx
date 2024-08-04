@@ -26,22 +26,9 @@ export function Footer() {
             Pixiez
           </Typography>
           <div className="grid grid-cols-3 justify-center items-center gap-4 h-24">
-          <Link to="">Home</Link>
-          <Link to="">About Us</Link>
-          <Link to="">Contact Us</Link>
-            {/* {LINKS.map(({ title }) => (
-              <ul key={title}>
-                <Typography
-                  variant="small"
-                  color="blue-gray"
-                  className="mb-3 font-medium opacity-40"
-                >
-                 
-                  {title}
-              
-                </Typography>
-              </ul>
-            ))} */}
+          <Link to="#homepage">Home</Link>
+          <Link to="#aboutus">About Us</Link>
+          <Link to="#contactus">Contact Us</Link>
           </div>
         </div>
         <div className=" flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">

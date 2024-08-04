@@ -40,7 +40,7 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="w-full transition-all duration-300 sticky top-0 drop-shadow-md z-40 bg-white">
+    <header className="animate-fade-down w-full transition-all duration-300 sticky top-0 drop-shadow-md z-40 bg-white">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-1 lg:px-8"
         aria-label="Global"
@@ -65,13 +65,13 @@ export function Header() {
           <a href="#homepage" className="text-base font-semibold leading-6 text-gray-900">
             Home
           </a>
-          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
+          <a href="#services" className="text-base font-semibold leading-6 text-gray-900">
             Services
           </a>
-          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
+          <a href="#aboutus" className="text-base font-semibold leading-6 text-gray-900">
             About Us
           </a>
-          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
+          <a href="#contactus" className="text-base font-semibold leading-6 text-gray-900">
             Contact Us
           </a>
         </PopoverGroup>

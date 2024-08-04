@@ -30,7 +30,7 @@ module.exports = withMT({
       }
     },
   },
-  plugins: ['tailwindcss-animated'],
+  plugins: [require('tailwindcss-animated')],
 });
 
 
