@@ -12,7 +12,7 @@ import {
 
   export function Services() {
     return (
-      <div className="grid grid-cols-3 p-[40px] justify-items-center mb-[50px]">
+      <div className="grid lg:grid-cols-3 p-[40px] justify-items-center mb-[50px] sm:grid-cols-1 md:grid-cols-2">
         {/* //Business planning */}
         <Card 
         data-aos="fade-up"

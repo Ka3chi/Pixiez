@@ -14,9 +14,9 @@ export const Home = () => {
     AOS.init();
   }, []);
   return (
-    <div className=" bg-gray-200 flex flex-col justify-center overflow-y-hidden" id="homepage">
+    <div className=" bg-gray-200 flex flex-col justify-center overflow-y-hidden overflow-x-hidden w-full" id="homepage">
       {/* HomePage */}
-      <div className="bg-[url('https://i.ibb.co/CwyMQwV/homepage1.png')] w-full flex justify-center p-16 h-[700px] bg-no-repeat bg-center bg-cover transform scale-80 " 
+      <div className="bg-[url('https://i.postimg.cc/6Q3qF4RC/homepage1.png')] w-full flex justify-center p-16 h-[700px] bg-no-repeat bg-center bg-cover transform scale-80 " 
       >
         <div className="flex justify-center flex-row p-2">
           <div
@@ -25,8 +25,12 @@ export const Home = () => {
             className="p-2 flex flex-col justify-center items-center"
           >
             <div className="flex justify-start text-wrap font-semibold">
-            <p className="font-bold text-[64px] flex justify-center flex-wrap">
-              Welcome to <span className=" text-skyblue">&nbsp;Pixiez</span>
+            <p className="font-bold text-[64px] flex justify-center items-center">
+              <span>Welcome to
+              <span className="font-extrabold bg-gradient-to-r from-blue-500 to-white bg-clip-text text-transparent">
+              &nbsp;Pixiez
+              </span>
+              </span>
             </p>
             </div>
             <div className="flex justify-start text-wrap text-[20px] font-semibold">
@@ -34,8 +38,8 @@ export const Home = () => {
               <br /> Let's transform your ideas into achievements with Pixiez.
             </div>
             <div className="p-2 flex justify-center items-center">
-              <button className="flex justify-center items-center p-2 border bg-gray-300 border-light-blue-500 text-blue-500 rounded-[10px] text-[20px] hover:text-white hover:bg-blue-500 h-[60px] w-[150px] text-blue">
-                Get Started!
+              <button className="flex justify-center items-center p-2 border bg-gray-300 border-light-blue-500 text-blue-500 rounded-[10px] text-[20px] hover:text-white hover:bg-black hover:border-black h-[60px] w-[200px] text-blue">
+                Let's Get Started!
               </button>
             </div>
           </div>
@@ -69,9 +73,9 @@ export const Home = () => {
       {/* Mission*/}
       <div className="bg-background2 flex justify-center items-center h-[800px] px-[30px]">
         <div className="flex justify-center items-center flex-col">
-          <img data-aos="fade-up" src={mission} alt="mission" className="h-[392px] w-[485px] mb-5 rounded-sm"/>
+          <img data-aos="fade-up" src={mission} alt="mission" className="h-[350px] w-[400px] mb-5 rounded-xl"/>
           <div  data-aos="zoom-in" className="flex flex-col justify-center items-center" >
-            <h1 className="font-semibold text-[40px]">Our Mission</h1>
+            <h1 className="font-semibold text-[40px] ">Our Mission</h1>
             <p className="text-wrap text-[24px] font-thin text-center text-text2 w-[750px]">
             To empower creativity and innovation, delivering high-quality, tailored solutions that exceed client expectations and foster lasting relationships.
             </p>
@@ -97,14 +101,14 @@ export const Home = () => {
         </div>
       </div>
       {/* Services */}
-      <div id="services" className="p-2 flex flex-col">
+      <div className="p-2 flex flex-col">
         <div className="flex justify-center items-center pt-10">
-          <h1 className="font-bold text-[50px]">Our Services</h1>
+          <h1 id="services" className="font-bold text-[50px]">Our Services</h1>
         </div>
         <Services />
       </div>
-      <div className="bg-[url('https://i.ibb.co/LnVcjTS/teamwork.jpg')] min-h-screen bg-fixed bg-center bg-no-repeat bg-cover flex justify-center items-center h-96">
-        <div className="font-bold text-[64px] flex justify-center text-wrap text-white">
+      <div className="bg-[url('https://i.postimg.cc/VNQ1WSgY/group.jpg')] min-h-screen bg-fixed bg-center bg-no-repeat bg-cover flex justify-center items-center h-96">
+        <div className="font-bold text-[64px] flex justify-center text-wrap items-center text-white">
           Unite with us and shape the future.
         </div>
       </div>

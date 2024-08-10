@@ -10,10 +10,10 @@ module.exports = withMT({
   theme: {
     extend: {
       colors: {
-        'violet' : "#03045e",
-        'blue' : "#0077b6",
-        'skyblue' : "#00b4d8",
-        'lightsky' : "#90e0ef",
+        // 'violet' : "#03045e",
+        // 'blue' : "#0077b6",
+        // 'skyblue' : "#00b4d8",
+        // 'lightsky' : "#90e0ef",
 
         'accent' : "#4f9fed",
         'secondary' : "#79cff1",

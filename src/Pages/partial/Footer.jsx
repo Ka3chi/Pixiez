@@ -26,9 +26,9 @@ export function Footer() {
             Pixiez
           </Typography>
           <div className="grid grid-cols-3 justify-center items-center gap-4 h-24">
-          <Link to="#homepage">Home</Link>
-          <Link to="#aboutus">About Us</Link>
-          <Link to="#contactus">Contact Us</Link>
+          <a href="#homepage">Home</a>
+          <a href="#aboutus">About Us</a>
+          <a href="#contactus">Contact Us</a>
           </div>
         </div>
         <div className=" flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
